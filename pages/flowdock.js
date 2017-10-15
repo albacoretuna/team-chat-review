@@ -1,15 +1,14 @@
 import React from "react"
 import Head from "next/head"
-import Link from 'next/link'
 
 export default () =>
   <div>
     <Head>
-      <title>Team Chat Review</title>
+      <title>Flowdock | Team Chat Review</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <h1>Team Chat Review</h1>
-    <p>What team chat app works best for your team?</p>
+    <h1>Flowdock</h1>
+    <p>Is Flowdock suitable for your team?</p>
     <div className="card-container">
       <style jsx>
         {`
@@ -35,45 +34,12 @@ export default () =>
         `}
       </style>
       <div className="card">
-         <Link href="/flowdock">
-           <a><h2>Flowdock</h2></a>
-        </Link>
-        <p></p>
+        <h2>Costs</h2>
+        <p />
       </div>
       <div className="card">
-        <h2>IRC</h2>
-        <p></p>
-      </div>
-      <div className="card">
-        <h2>Rocket.chat</h2>
-        <p></p>
-      </div>
-      <div className="card">
-        <h2>Zulip</h2>
-        <p></p>
-      </div>
-      <div className="card">
-        <h2>Twist</h2>
-      </div>
-      <div className="card">
-        <h2>Slack</h2>
-        <p></p>
-      </div>
-      <div className="card">
-        <h2>Hipchat</h2>
-        <p></p>
-      </div>
-      <div className="card">
-        <h2>Stride</h2>
-        <p></p>
-      </div>
-      <div className="card">
-        <h2>Skype</h2>
-        <p></p>
-      </div>
-      <div className="card">
-        <h2>Basecamp</h2>
-        <p></p>
+        <h2>Supported platforms</h2>
+        <p />
       </div>
     </div>
     <footer>
